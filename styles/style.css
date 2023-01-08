@@ -1,0 +1,276 @@
+
+@font-face {
+
+    font-family: 'Montserrat';
+    src: url('/fonts/static/Montserrat-Medium.ttf'), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.ttf'), format('truetype');
+}
+
+@font-face {
+	font-family: 'Font Name';
+	src: local('Font Name'),
+		url(/fonts/font.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+
+}
+
+.container {
+  margin: 0px 166px;
+
+
+}
+
+body {
+  margin: 0;
+  display: block;
+}
+
+.logo {
+
+  top: 31px;
+  left: 150px;
+}
+
+.nav {
+  margin-inline: 100px;
+  left: 638px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+  display: inline-block;
+  margin: 0px 40px 0px 0px;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Roboto';
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.dots {
+  position: absolute;
+  top: 121px;
+  left: 117px;
+}
+
+.elips1 {
+  position: absolute;
+  left: 520px;
+  top: 110px;
+}
+.elips2 {
+  position: absolute;
+  left: 520px;
+  top: 693px;
+}
+
+.elips3 {
+  position: absolute;
+  top: 704px;
+  right: 118px;
+}
+
+.elips4 {
+  position: absolute;
+  top: 128px;
+  right: 306px;
+}
+
+.elips5 {
+  position: absolute;
+  top: 682px;
+  right: 520px;
+}
+
+.ava {
+  position: absolute;
+  left: 150px;
+  top: 130px;
+  width: 350px;
+  height: 300px;
+}
+
+.socials {
+  position: absolute;
+  left: 150px;
+  top: 826px;
+  align-items: center;
+
+}
+
+
+.info {
+
+  position: absolute;
+  top: 296px;
+  right:377px;
+  width: 486px;
+  height: 319px;
+}
+.info p1{
+
+position: absolute;
+width: 256px;
+height: 24px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+
+text-transform: uppercase;
+
+color: #018AD9;
+
+}
+
+.info h1 {
+
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 67px;
+  line-height: 85px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.info p2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 0px 100px 0px;
+  color: #646464;
+}
+
+.button1 {
+  color: #FFFFFF;
+  border-radius: 35px;
+  background: #3ECF8E;
+  align-items: center;
+  padding: 15px 10px 15px 10px;
+  justify-items: var(10px);
+  margin-top: 30px;
+}
+
+.paypal {
+  position: absolute;
+  left: 333px;
+  top: 1044px;
+}
+.skils {
+  margin-top: auto;
+  justify-content: center;
+
+}
+
+.iwd {
+  margin-top: 1060px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+
+
+  color: #000000;
+
+}
+
+.cards {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 388px;
+  height: 419px;
+  text-align: center;
+
+}
+
+.card-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.card-desc{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #646464;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  margin-bottom: 10px;
+}
+
+.card-button {
+  padding: 10px;
+  color: #FFFFFF;
+  background: #3ECF8E;
+  border-radius: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  width: 120px;
+
+ }
+
+ .butt-img {
+  margin-left: 10px;
+ }
+
+
+
+
+
